@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ch1Ex3: Your First Canvas Application </title>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+<script type="text/javascript">
+window.addEventListener("load", eventWindowLoaded, false);
+var Debugger = function() {};
+Debugger.log = function(message) {
+  try {
+    console.log(message);
+  } catch {
+    return;
+  }
+}
+
